@@ -59,10 +59,10 @@ jobs:
         
     - name: 自定义插件
       run: |
-          cd package
-          mkdir openwrt-packages
-          cd openwrt-packages
-          git clone https://github.com/vernesong/OpenClash.git
+        cd package
+        mkdir openwrt-packages
+        cd openwrt-packages
+        git clone https://github.com/vernesong/OpenClash.git
 
     - name: Clone source code
       env: 
