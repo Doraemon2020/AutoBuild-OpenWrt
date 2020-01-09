@@ -58,7 +58,7 @@ jobs:
         sudo -E apt-get clean
         
     - name: 自定义插件
-        run: |
+      run: |
           cd package
           mkdir openwrt-packages
           cd openwrt-packages
